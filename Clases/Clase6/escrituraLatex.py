@@ -54,10 +54,24 @@ file.write('\\caption{Datos} \n')
 file.write('\\end{table} \n')
 file.write('\\end{document}')
 
+file.close()
+
 # Utilizamos el modulo subprocess para correrlo desde la terminal
 import subprocess
-subprocess.run('pdflatex "tabla.tex"', shell=True)
-subprocess.run('del "tabla.aux"', shell=True)
-subprocess.run('del "tabla.log"', shell=True)
-subprocess.run('del "tabla.out"', shell=True)
+subprocess.call(['pdflatex','tabla.tex'])
+subprocess.call(['rm', 'tabla.aux'])
+subprocess.call(['rm', 'tabla.log'])
+subprocess.call(['rm', 'tabla.out'])
+subprocess.call(['evince', 'tabla.pdf'])
+
+
+
+
+
+'''
+subprocess.run('pdflatex "tabla.tex"', shell = True)
+subprocess.run('rm "tabla.aux"', shell=True)
+subprocess.run('rm "tabla.log"', shell=True)
+subprocess.run('rm "tabla.out"', shell=True)
+'''
 # subprocess.run('evince "tabla.pdf"', shell=True)
