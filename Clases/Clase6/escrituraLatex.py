@@ -41,7 +41,7 @@ file.write('\\hline \n')
 
 
 # escritura de la Tabla
-for i in range(10):
+for i in range(15):
     q = '$' + '{n1}' + '$ & $' + '{n2}' + '$ \\\\ \n'
     file.write(q.format(n1 = data[i][0], n2 = data[i][1]))
 
