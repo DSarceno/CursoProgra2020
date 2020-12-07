@@ -18,8 +18,8 @@ fo = open(attendance_file, "r")
 attendance_list = fo.readlines()
 
 # Add to a column attendande
-data_base[0][-1] = data_base[0][-1][0]
-data_base[0].append('1\n')
+#data_base[0][-1] = data_base[0][-1][0]
+#data_base[0].append('1\n')
 
 for assitent in attendance_list:
     for person in data_base:
