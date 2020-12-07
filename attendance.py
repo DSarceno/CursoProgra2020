@@ -18,8 +18,8 @@ fo = open(attendance_file, "r")
 attendance_list = fo.readlines()
 
 # Add to a column attendande
-#data_base[0][-1] = data_base[0][-1][0]
-#data_base[0].append('1\n')
+data_base[0][-1] = data_base[0][-1][0]
+data_base[0].append('1\n')
 
 for assitent in attendance_list:
     for person in data_base:
@@ -38,7 +38,7 @@ fo.close()
 data_base_file.close()
 
 # Write the new csv file
-new_data_base = open("data_base.csv", "w")
+new_data_base = open("attendance-history.csv", "w")
 for elem in data_base:
     for word in elem:
         if elem[-1] == word:
