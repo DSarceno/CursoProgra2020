@@ -6,7 +6,8 @@
 - José Alfredo de León 
 
 Importante:
-1. El archivo attendance.py, junto con el Google Sheet 
+1. Otros archivos importantes del curso se encuentran en [esta carpeta de Google Drive.](https://drive.google.com/drive/folders/1iVIoVF1yPwoU3-KgPHnGQEvqULrPUh8P?usp=sharing)
+2. El archivo attendance.py, junto con el Google Sheet 
    generado por la extensión 'Meet Attendance', automatizan
    tomar la asistencia. 
    
