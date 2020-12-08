@@ -1,10 +1,9 @@
-# Curso 'Intro a la programación científica -u Python' 
-# 30 nov - 18 dic
+# Curso 'Intro a la programación científica -u Python', 30 nov - 18 dic, 2020
 
-## Instructores:
-## - Alex Alvarado
-## - Diego Sarceño
-## - José Alfredo de León 
+### Instructores:
+- Alex Alvarado
+- Diego Sarceño
+- José Alfredo de León 
 
 Importante:
 1. El archivo attendance.py, junto con el Google Sheet 
@@ -24,6 +23,6 @@ Importante:
    por ejemplo, copiar la última columna de 1's y 0's y pegarla en el
    Google Sheet de asistencia. 
    
-   Importante (para futuros años): los nombres en 'attendance-history.csv'
+   **OJO** (para futuros años): los nombres en 'attendance-history.csv'
    deben ser exactamente los nombres de las cuentas de Google de los 
    participantes, de lo contrario no funciona el script. 
