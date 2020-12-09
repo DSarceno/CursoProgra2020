@@ -23,8 +23,8 @@ file.close()
 # Navegamos por 'data' realizando las multiplicaciones y lo almacenamos en 'q'
 Q = []
 for block in data:
-    q = float(block[0]) * float(block[2])
-    dq = q*m.sqrt((float(block[1]) / float(block[0])) + (float(block[3]) / float(block[2])))
+    q = float(block[0]) * float(block[2]) * float(block[4])
+    dq = q*m.sqrt((float(block[1]) / float(block[0])) + (float(block[3]) / float(block[2])) + (float(block[5]) / float(block[4])))
     Q.append([str(q),str(dq)])
 
 
