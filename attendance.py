@@ -38,7 +38,7 @@ fo.close()
 data_base_file.close()
 
 # Write the new csv file
-new_data_base = open("attendance-history.csv", "w")
+new_data_base = open("attendance-history-2.csv", "w")
 for elem in data_base:
     for word in elem:
         if elem[-1] == word:
