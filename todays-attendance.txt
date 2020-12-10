@@ -1,12 +1,12 @@
-Diego Sarceño
 Abel Pacay
 Alejandro Barillas
 amado cabrera
+Ana Ramos
+Andy Pérez
 Denilson Mendoza
 Dulce Pamela Calan
-Fernando Estrada
-Gustavo Mansilla
-Intro a la programación científica
+estafanie alvarez
+Gabriel Barrios
 José García
 Luis Icu
 Mariana Pérez
@@ -15,8 +15,3 @@ Ricardo Escobar Matzir
 Rodrigo Castillo
 Rodrigo José Us Tumax
 Rubí Ramírez
-Andy Pérez
-Carlos Perez
-Gabriel Barrios
-Raúl Gaitán
-Rebeca Elisabet Rodriguez Barrera
