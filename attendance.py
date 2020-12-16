@@ -17,20 +17,24 @@ for line in data_base_file:
 fo = open(attendance_file, "r")
 attendance_list = fo.readlines()
 
+# Initial number of entries 
+i_entries = len(data_base[0])
+
 # Add to a column attendande
 data_base[0][-1] = data_base[0][-1][0]
 data_base[0].append('1\n')
 
+# Add 1 if person is in today's attendance list
 for assitent in attendance_list:
     for person in data_base:
-        if assitent[:-1] == person[0]:
+        if assitent[:-1] == person[0] and len(person) == i_entries:
             person[-1] = person[-1][0]
             person.append('1\n')
-            entries = len(person)
             continue
 
+# Add 0 if person is not in today's attendance list
 for person in data_base:
-    if len(person) < entries:
+    if len(person)  == i_entries:
         person[-1] = person[-1][0]
         person.append('0\n')
 
