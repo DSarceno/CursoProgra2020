@@ -11,7 +11,7 @@ Importante:
    generado por la extensión 'Meet Attendance', automatizan
    tomar la asistencia. 
    
-   Instrucciones: 
+   Instrucciones: (debería hacer un Makefile para esto)
    1. Hacer pull al repositorio.
    2. Tomar un 'snapshot' con la extensión de Chrome en la 
    llamada de Google Meet. 
