@@ -19,7 +19,7 @@ Importante:
    en el archivo 'todays-attendance.txt' 
    4. Correr en terminal: python3 attendance.py attendance-history.csv
    todays-attendance.txt 
-   5. Hacer pull.
+   5. Hacer push.
    6. Abrir el nuevo archivo 'attendance-history.csv' en Libre Office,
    por ejemplo, copiar la última columna de 1's y 0's y pegarla en el
    Google Sheet de asistencia. 
